@@ -111,10 +111,11 @@ During operation, the system continuously evaluates inputs from both controllers
   </tr>
 </table>
 
-### 🔹 Master & Slave Enclosure / Casing
-
-> **(Insert Master and Slave casing images here)**  
-> *Show how the units are enclosed and protected for installation on the bike.*
+### 📥 Master & Slave Enclosure / Casing
+### 🔹 Master Unit Casing
+![Schematic](Images/Master-Casing.png)
+### 🔹 Slave Unit Casing
+![Schematic](Images/Slave-Casing.png)
 
 ## ⚙️ Software & Technologies
 
