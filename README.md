@@ -116,11 +116,6 @@ During operation, the system continuously evaluates inputs from both controllers
 > **(Insert Master and Slave casing images here)**  
 > *Show how the units are enclosed and protected for installation on the bike.*
 
-## 🔌 GPIO Pin Configuration
-
-> **(Exact GPIO pin mapping will be added here)**  
-> *Include separate pin tables for Master (ESP32) and Slave (ESP32-C3 Mini).*
-
 ## ⚙️ Software & Technologies
 
 - **Programming Language**: C / C++
