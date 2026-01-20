@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32_Modules")(type "KiCad")(uri "C:/Users/harih/Downloads/ESP32-DEVKIT-V1/ESP32_Modules.pretty")(options "")(descr ""))
+)

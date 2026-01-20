@@ -1,0 +1,28 @@
+
+
+   ---- Transcoding 'D:\Uni\Semestter CS2\EE356\BikeSSv3\GerberV3-3-Master\BikeSSv3-Edge_Cuts.gbr' ----   Mon Nov 10 11:22:21 2025
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Uni\Semestter CS2\EE356\BikeSSv3\GerberV3-3-Master\BikeSSv3-F_Cu.gbr' ----   Mon Nov 10 11:22:21 2025
+
+D34   --> D101
+D35   --> D102
+D36   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Uni\Semestter CS2\EE356\BikeSSv3\GerberV3-3-Master\BikeSSv3-Edge_Cuts.gbr' ----   Wed Nov 12 11:34:07 2025
+
+D10   --> D100
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Uni\Semestter CS2\EE356\BikeSSv3\GerberV3-3-Master\BikeSSv3-F_Cu.gbr' ----   Wed Nov 12 11:34:07 2025
+
+D34   --> D101
+D35   --> D102
+D36   --> D103
+-----------------------------------------------------------------

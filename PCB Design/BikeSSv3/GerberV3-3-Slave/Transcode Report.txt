@@ -1,0 +1,6 @@
+
+
+   ---- Transcoding 'D:\Uni\Semestter CS2\EE356\BikeSSv3\GerberV3-3-Slave\BikeSSv3-Edge_Cuts.gbr' ----   Wed Nov 12 11:39:27 2025
+
+D10   --> D100
+-----------------------------------------------------------------
