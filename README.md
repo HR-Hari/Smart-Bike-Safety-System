@@ -51,10 +51,6 @@ During operation, the system continuously evaluates inputs from both controllers
             │ • Rider Safety Monitoring  │
             └────────────────────────────┘
             
-## 🧭 Flowchart
-
-> **(Flowchart will be added here)**  
-> *Include system-level and event-based flowcharts illustrating theft detection, crash detection, alcohol detection, and alert generation.*
 
 
 ## 🔧 Hardware Components
@@ -79,27 +75,46 @@ During operation, the system continuously evaluates inputs from both controllers
 | DHT22 | Temperature & humidity monitoring |
 | Power Source | 5V rechargeable battery |
 
+## 🧭 Schematic
+
+![Schematic](https://github.com/HR-Hari/Smart-Bike-Safety-System/blob/c28a9280bdd922c1ce59415980f616e76a79e5f7/Images/Schematic%20Diagram.PNG)
+
 ## 🖼 PCB & Enclosure Design
 
 ### 🔹 Master Unit PCB Design
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/HR-Hari/Smart-Bike-Safety-System/blob/c28a9280bdd922c1ce59415980f616e76a79e5f7/Images/Master%20PCB.PNG" 
+           alt="Master PCB" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/HR-Hari/Smart-Bike-Safety-System/blob/c28a9280bdd922c1ce59415980f616e76a79e5f7/Images/Master%203D%20view.PNG" 
+           alt="Master 3D view" width="400"/>
+    </td>
+  </tr>
+</table>
 
-> **(Insert Master Unit PCB design image here)**  
-> *Include a clear top-view or schematic PCB image showing component placement for ESP32, GSM, GPS, MPU6050, and relay connections.*
 
 ### 🔹 Slave Unit PCB Design
 
-> **(Insert Slave Unit PCB design image here)**  
-> *Include a clear top-view or schematic PCB image showing component placement for ESP32-C3 Mini, MQ-3, and DHT22.*
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/HR-Hari/Smart-Bike-Safety-System/blob/c28a9280bdd922c1ce59415980f616e76a79e5f7/Images/Slave%20PCB.PNG" 
+           alt="Slave PCB" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/HR-Hari/Smart-Bike-Safety-System/blob/c28a9280bdd922c1ce59415980f616e76a79e5f7/Images/Slave%203D%20view.PNG" 
+           alt="Slave 3D view" width="400"/>
+    </td>
+  </tr>
+</table>
 
 ### 🔹 Master & Slave Enclosure / Casing
 
 > **(Insert Master and Slave casing images here)**  
 > *Show how the units are enclosed and protected for installation on the bike.*
-
-## 🔌 GPIO Pin Configuration
-
-> **(Exact GPIO pin mapping will be added here)**  
-> *Include separate pin tables for Master (ESP32) and Slave (ESP32-C3 Mini).*
 
 ## ⚙️ Software & Technologies
 
