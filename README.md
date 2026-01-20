@@ -79,6 +79,23 @@ During operation, the system continuously evaluates inputs from both controllers
 | DHT22 | Temperature & humidity monitoring |
 | Power Source | 5V rechargeable battery |
 
+## 🖼 PCB & Enclosure Design
+
+### 🔹 Master Unit PCB Design
+
+> **(Insert Master Unit PCB design image here)**  
+> *Include a clear top-view or schematic PCB image showing component placement for ESP32, GSM, GPS, MPU6050, and relay connections.*
+
+### 🔹 Slave Unit PCB Design
+
+> **(Insert Slave Unit PCB design image here)**  
+> *Include a clear top-view or schematic PCB image showing component placement for ESP32-C3 Mini, MQ-3, and DHT22.*
+
+### 🔹 Master & Slave Enclosure / Casing
+
+> **(Insert Master and Slave casing images here)**  
+> *Show how the units are enclosed and protected for installation on the bike.*
+
 ## 🔌 GPIO Pin Configuration
 
 > **(Exact GPIO pin mapping will be added here)**  
