@@ -1,9 +1,9 @@
-# 🚨 Smart Bike Safety System
+# Smart Bike Safety System
 
 A **Smart Bike Safety System** for motor bikes using a **dual-microcontroller architecture**.  
 The system detects theft attempts, abnormal movement, crash events, and **rider alcohol consumption**, sends **real-time alerts with GPS location** to the owner via **GSM**, and can **remotely disable the engine** for enhanced safety and security.
 
-## 📌 Project Overview
+## Project Overview
 
 Motor bike theft, unsafe riding, and delayed accident response remain major challenges.  
 This project presents a **smart embedded safety and anti-theft solution** using **ESP32-based controllers**, inertial sensing, alcohol detection, GPS tracking, and GSM communication.
@@ -15,7 +15,7 @@ The system is divided into:
 
 This modular design improves **reliability, power efficiency, fault isolation, and scalability**.
 
-## ⚙️ System Functionality & Working
+## System Functionality & Working
 
 The Smart Bike Safety System operates using a **distributed dual-controller architecture** to ensure reliable monitoring and fast response. The **ESP32 Master unit**, powered directly from the bike battery, acts as the central control node responsible for decision-making, communication, and engine control. It interfaces with a **SIM900A GSM module** for SMS alerts, a **NEO-M8N GPS module** for real-time location tracking, a **5V relay** for engine cutoff, and an **MPU6050 inertial sensor** for detecting crash events and abnormal vehicle motion.
 
@@ -23,7 +23,7 @@ A secondary **ESP32-C3 Mini Slave unit**, powered by a rechargeable 5V battery, 
 
 During operation, the system continuously evaluates inputs from both controllers. If **alcohol consumption exceeds a predefined threshold**, a **crash is detected**, or **unauthorized movement** is identified, the Master unit immediately retrieves GPS coordinates and sends an **SMS alert via GSM** to the registered user. In critical scenarios, the system activates the **engine cutoff relay**, preventing the bike from being started or continuing operation. This integrated approach ensures **theft prevention, rider safety, and rapid incident notification** in a single embedded solution.
 
-## 🎯 Objectives
+## Objectives
 
 - Detect unauthorized movement or theft attempts  
 - Detect crash events using inertial sensing  
@@ -32,7 +32,7 @@ During operation, the system continuously evaluates inputs from both controllers
 - Remotely disable the bike engine when unsafe conditions are detected  
 - Implement a low-cost, embedded IoT-based safety system  
 
-## 🧠 System Architecture
+## System Architecture
             ┌────────────────────────────┐
             │        ESP32 MASTER        │
             │─────────────────────────── │
@@ -53,9 +53,9 @@ During operation, the system continuously evaluates inputs from both controllers
             
 
 
-## 🔧 Hardware Components
+## Hardware Components
 
-### 🔹 Master Unit (ESP32)
+### Master Unit (ESP32)
 
 | Component | Description |
 |---------|------------|
@@ -66,7 +66,7 @@ During operation, the system continuously evaluates inputs from both controllers
 | 5V Relay Module | Engine cutoff control |
 | Power Source | Motor bike 12V battery (regulated) |
 
-### 🔹 Slave Unit (ESP32-C3 Mini)
+### Slave Unit (ESP32-C3 Mini)
 
 | Component | Description |
 |---------|------------|
@@ -75,13 +75,13 @@ During operation, the system continuously evaluates inputs from both controllers
 | DHT22 | Temperature & humidity monitoring |
 | Power Source | 5V rechargeable battery |
 
-## 🧭 Schematic
+## Schematic
 
 ![Schematic](https://github.com/HR-Hari/Smart-Bike-Safety-System/blob/c28a9280bdd922c1ce59415980f616e76a79e5f7/Images/Schematic%20Diagram.PNG)
 
-## 🖼 PCB & Enclosure Design
+## PCB & Enclosure Design
 
-### 🔹 Master Unit PCB Design
+### Master Unit PCB Design
 <table>
   <tr>
     <td>
@@ -96,7 +96,7 @@ During operation, the system continuously evaluates inputs from both controllers
 </table>
 
 
-### 🔹 Slave Unit PCB Design
+### Slave Unit PCB Design
 
 <table>
   <tr>
@@ -111,12 +111,12 @@ During operation, the system continuously evaluates inputs from both controllers
   </tr>
 </table>
 
-### 🔹 Master & Slave Enclosure / Casing
+### Master & Slave Enclosure / Casing
 
 > **(Insert Master and Slave casing images here)**  
 > *Show how the units are enclosed and protected for installation on the bike.*
 
-## ⚙️ Software & Technologies
+## Software & Technologies
 
 - **Programming Language**: C / C++
 - **IDE**: Arduino IDE
@@ -132,20 +132,20 @@ During operation, the system continuously evaluates inputs from both controllers
   - Real-time Event Detection
   - Power Management
 
-## 🚀 Key Features
+## Key Features
 
-- 🔐 Theft detection through abnormal motion analysis  
-- 🚑 Crash detection using MPU6050  
-- 🍺 Alcohol detection using MQ-3 sensor  
-- 🌡️ Environmental monitoring using DHT22  
-- 📍 GPS-based real-time location sharing  
-- 📩 SMS alerts via GSM (SIM900A)  
-- 🔌 Engine immobilization using relay  
-- 🔋 Dual power supply for uninterrupted operation  
+- Theft detection through abnormal motion analysis  
+- Crash detection using MPU6050  
+- Alcohol detection using MQ-3 sensor  
+- Environmental monitoring using DHT22  
+- GPS-based real-time location sharing  
+- SMS alerts via GSM (SIM900A)  
+- Engine immobilization using relay  
+- Dual power supply for uninterrupted operation  
 
-## 📂 Project Structure
+## Project Structure
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 - Unauthorized movement and theft detection  
 - Crash detection sensitivity tuning  
@@ -156,7 +156,7 @@ During operation, the system continuously evaluates inputs from both controllers
 
 System validated under real motor bike operating conditions.
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - Mobile application integration  
 - Cloud-based real-time tracking dashboard  
